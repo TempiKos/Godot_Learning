@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dp3ovosfomqi6"]
+
+[ext_resource type="Script" uid="uid://c01kudajgd7pl" path="res://main_scene.gd" id="1_0f027"]
+[ext_resource type="Script" uid="uid://b2wqfyv18n7x7" path="res://player.gd" id="2_2c62f"]
+
+[node name="Main" type="Node2D" unique_id=1444950969]
+script = ExtResource("1_0f027")
+
+[node name="Player" type="Polygon2D" parent="." unique_id=709671180]
+color = Color(0.86865073, 0, 0.47964048, 1)
+polygon = PackedVector2Array(-163, 25, -163, -66, -55, -66, -55, 25)
+uv = PackedVector2Array(-163, 25, -162, -66, -55, -67, -56, 12)
+script = ExtResource("2_2c62f")
