@@ -18,3 +18,9 @@ polygon = PackedVector2Array(0, 0, 32, 0, 32, 32, 0, 32)
 position = Vector2(152.5, 139.1)
 shape = SubResource("RectangleShape2D_xhfnw")
 debug_color = Color(0.35000038, 0, 1, 0.41960785)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1861707667]
+limit_left = 0
+limit_top = 0
+limit_right = 1920
+limit_bottom = 1080
